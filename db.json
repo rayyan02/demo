@@ -1,14 +1,57 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "profile": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "john.doe@example.com",
+      "profile_picture": "https://www.freeiconspng.com/uploads/profile-icon-9.png",
+      "fitness_goal": "get_fit"
+    },
+    {
+      "id": 2,
+      "name": "Mark",
+      "email": "mark.doe@example.com",
+      "profile_picture": "https://www.freeiconspng.com/uploads/profile-icon-9.png",
+      "fitness_goal": "lose_weight"
+    },
+    {
+      "id": 3,
+      "name": "Shane",
+      "email": "shane@example.com",
+      "profile_picture": "https://www.freeiconspng.com/uploads/profile-icon-9.png",
+      "fitness_goal": "improve_health"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "workout_results": [
+    {
+      "id": 1,
+      "calories_burned": "240",
+      "points": 6,
+      "location": {
+        "name": "Alexanderplatz"
+      },
+      "workout": {
+        "date": "2018-10-24T15:30:00.000Z",
+        "type": "strength"
+      },
+      "coach": {
+        "name": "Tim"
+      }
+    },
+    {
+      "id": 2,
+      "calories_burned": "440",
+      "points": 6,
+      "location": {
+        "name": "Mauerpark"
+      },
+      "workout": {
+        "date": "2018-10-22T15:30:00.000Z",
+        "type": "hiit"
+      },
+      "coach": {
+        "name": "Tim"
+      }
+    }
+  ]
 }
