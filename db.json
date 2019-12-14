@@ -53,5 +53,42 @@
         "name": "Tim"
       }
     }
-  ]
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "status": "booked",
+      "location": {
+        "name": "Alexanderplatz"
+      },
+      "workout": {
+        "date": "2018-10-24T15:30:00.000Z",
+        "type": "strength"
+      },
+      "coach": {
+        "name": "Tim"
+      }
+    },
+    {
+      "id": 2,
+      "status": "cancelled",
+      "location": {
+        "name": "Mauerpark"
+      },
+      "workout": {
+        "date": "2018-10-22T15:30:00.000Z",
+        "type": "hiit"
+      },
+      "coach": {
+        "name": "Tim"
+      }
+    }
+  ],
+  "user_stats":{
+    "workouts":2,
+    "calories_burned_sum":960,
+    "calories_burned_avg":320,
+    "points_sum":36,
+    "points_avg":12
+  }
 }
